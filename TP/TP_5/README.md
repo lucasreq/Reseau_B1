@@ -238,3 +238,4 @@ La discussion entre le client et le serveur DHCP se fait en 4 messages simples, 
 
 Nous allons d'abord effectuer `dhcpclient -v -r` pour récuperer les trames
 
+[Trames wireshark](https://github.com/lucasreq/Reseau_B1/blob/master/TP/TP_5/Images/Wiresharktrames.JPG)
