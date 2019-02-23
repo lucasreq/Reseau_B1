@@ -9,26 +9,26 @@
 
 ## 1. Préparation VMs
 
-[x] **1. Création d'un nouveau host-only**
+* [x] **1. Création d'un nouveau host-only**
   * peu importe l'adresse on s'en servira juste pour faire du [SSH](../../cours/lexique.md#ssh--secure-shell)
   * **activez le DHCP** comme ça on aura pas besoin de saisir les IPs
 
-[x] **2. Création des VMs**
+* [x] **2. Création des VMs**
 * On va juste cloner trois VMs depuis le patron du TP précédent :
   * `server1.tp5.b1` sera dans `net1` et portera l'IP `10.5.1.10/24`
   * `client1.tp5.b1` sera dans `net2` et portera l'IP `10.5.2.10/24`
   * `client2.tp5.b1` sera dans `net2` et portera l'IP `10.5.2.11/24`
 * Ajoutez aux trois VMs une interface host-only **en deuxième carte** dans le host-only précédemment créé
 
-[x] **3. Vous clonez juste les VMs, vous ne les allumez pas.**  
+* [x] **3. Vous clonez juste les VMs, vous ne les allumez pas.**  
 * Ensuite RDV dans GNS3 : Edit > Preferences > VirtualBox VMs et vous ajoutez les trois VMs. 
 
-[x] **4. Config réseau des dans GNS3** 
+* [x] **4. Config réseau des dans GNS3** 
 * Sur les 3 VMs 
   * Clic-droit > Configure > Network
   * mettre 2 cartes réseau
 
-[x] ## 2. Préparation Routeurs Cisco
+* [x] ## 2. Préparation Routeurs Cisco
 Importez l'ISO du routeur et mettez-en deux dans GNS3 : 
 * `router1.tp5.b1` est dans :
   * `net1` et portera l'IP `10.5.1.254/24`
@@ -117,16 +117,16 @@ On parle de toutes les machines :
 
 ## 1. Mise en place du serveur DHCP
 
-[x] **1. [Renommer la machine](../../cours/procedures.md#changer-son-nom-de-domaine)**
+* [x] **1. [Renommer la machine](../../cours/procedures.md#changer-son-nom-de-domaine)**
 
-[x] **2. Installer le serveur DHCP** en faisant un peu de crasse :
+* [x] **2. Installer le serveur DHCP** en faisant un peu de crasse :
 
-[x] **3. Rallumer la VM dans GNS**
+* [x] **3. Rallumer la VM dans GNS**
 
-[x] **4. Configuration du serveur DHCP**
+* [x] **4. Configuration du serveur DHCP**
 
-[x] **5. Démarrer le serveur DHCP**
+* [x] **5. Démarrer le serveur DHCP**
 
-[x] **6. Faire un test**
+* [x] **6. Faire un test**
 
 ## 2. Explorer un peu DHCP
